@@ -163,11 +163,6 @@ class _CatalogPageState extends State<CatalogPage> {
           }
         },
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed:
-            () => context.push('/catalog/create'), // Navigate to Create Catalog
-        child: const Icon(Icons.add),
-      ),
     );
   }
 }

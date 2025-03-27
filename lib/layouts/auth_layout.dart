@@ -16,21 +16,23 @@ class AuthLayout extends StatelessWidget {
               horizontal: 24.0,
               vertical: 32.0,
             ),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const SizedBox(height: 24),
-                const Icon(Icons.lock_outline, size: 64, color: Colors.blue),
-                const SizedBox(height: 16),
-                Text(
-                  'Welcome to Klontong',
-                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
+            child: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const SizedBox(height: 24),
+                  const Icon(Icons.lock_outline, size: 64, color: Colors.blue),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Welcome to Klontong',
+                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 32),
-                child,
-              ],
+                  const SizedBox(height: 32),
+                  child,
+                ],
+              ),
             ),
           ),
         ),
