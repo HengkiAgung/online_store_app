@@ -50,7 +50,7 @@ class _RegisterPageState extends State<RegisterPage> {
         final register = state.registerState;
 
         return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Text(
               "Register",

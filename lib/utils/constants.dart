@@ -1,5 +1,5 @@
 class ApiRoutes {
-  static const baseUrl = 'http://172.27.4.115:8000/api';
+  static const baseUrl = 'http://103.80.241.196:8006/api';
 
   static const register = '/register';
   static const login = '/login';
